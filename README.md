@@ -30,5 +30,13 @@ def class_text_to_int(row_label):
 
 eval.csv, eval.record, train.csv, train.record
 
-在data下放置labelmap.pbtxt
+在data下放置labelmap.pbtxt,注意和上述文件内容保持一致
+
+从https://github.com/tensorflow/models/tree/master/research/slim
+下载模型，将 
+model.ckpt.data-00000-of-00001
+model.ckpt.index
+model.ckpt.meta
+放置在dataset文件夹下的fine_tune_model文件夹内
+
 
