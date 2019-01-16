@@ -28,3 +28,7 @@ def class_text_to_int(row_label):
 
 运行完成，在data目录下产生
 
+eval.csv, eval.record, train.csv, train.record
+
+在data下放置labelmap.pbtxt
+
