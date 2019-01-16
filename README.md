@@ -39,4 +39,15 @@ model.ckpt.index
 model.ckpt.meta
 放置在dataset文件夹下的fine_tune_model文件夹内
 
+将下载的pipeline.config放置在dataset/data/文件夹内
+
+修改pipeline.config中的尺寸，fine_tune_checkpoint，num_steps，label_map_path，input_path，num_examples
+
+修改models-master/research/object_detection/model_main.py
+
+注意在dataset下新建training文件夹，保存训练模型。
+
+
+
+
 
