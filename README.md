@@ -47,7 +47,7 @@ model.ckpt.meta
 
 注意在dataset下新建training文件夹，保存训练模型。
 
-
+注意export PYTHONPATH，否则会报错。
 
 
 
